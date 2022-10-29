@@ -10,5 +10,10 @@
     "@chainlink/contracts": "^0.5.1",
     "dotenv": "^16.0.3",
     "hardhat-deploy": "^0.11.18"
+  },
+  "scripts":{
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat test --network goerli",
+    "coverage": "npx hardhat coverage"
   }
 }
